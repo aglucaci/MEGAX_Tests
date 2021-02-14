@@ -6,6 +6,7 @@ Substitution Matrix Estimates follow a Uniform distribution unless otherwise not
 
 
 ## Example Analysis Options 
+```
     Tree to Use                     :  Automatic (Neighbor-joining tree)
     Statistical Method              :  Maximum Likelihood
 Substitution Model
@@ -18,6 +19,6 @@ Data Subset to Use
     Gaps/Missing Data Treatment     :  Use all sites
     Select Codon Positions          :  1st,2nd,3rd,Non-Coding
     Branch Swap Filter              :  None
-    
-    
+``` 
+   
 ## Todo: Use a fixed tree
