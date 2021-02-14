@@ -4,7 +4,7 @@ Various performance experiments with methods available in MEGA-X
 
 Data includes an already codon-aware alignment.
 
-Substitution Matrix Estimates (SME) follow a Uniform distribution unless otherwise noted.
+Substitution Matrix Estimates (SME) follow a Uniform distribution unless otherwise noted. All other parameters are defaults.
 
 Gamma distributed SME use a pre-computed NJ tree available in the data folder
 
