@@ -2,6 +2,8 @@
 
 Various performance experiments with methods available in MEGA-X
 
+Data includes an already codon-aware alignment.
+
 Substitution Matrix Estimates follow a Uniform distribution unless otherwise noted.
 
 
