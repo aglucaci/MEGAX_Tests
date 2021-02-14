@@ -8,7 +8,7 @@ Substitution Matrix Estimates (SME) follow a Uniform distribution unless otherwi
 
 Gamma distributed SME use a pre-computed NJ tree available in the data folder
 
-## Example Analysis Options - Substiution Matrix
+## Example Analysis Options - Substitution Matrix
 ```
     Tree to Use                     :  Automatic (Neighbor-joining tree)
     Statistical Method              :  Maximum Likelihood
@@ -23,7 +23,17 @@ Data Subset to Use
     Select Codon Positions          :  1st,2nd,3rd,Non-Coding
     Branch Swap Filter              :  None
 ``` 
-   
+
+## Example Analysis Caption - Substitution Matrix, Gamma distributed
+```
+NOTE.-- Each entry is the probability of substitution (r) from one base (row) to another base (column). Substitution pattern and rates were estimated under the General Time Reversible model (+G) [1]. A discrete Gamma distribution was used to model evolutionary rate differences among sites (5 categories, [+G], parameter = 0.3468). Rates of different transitional substitutions are shown in bold and those of transversionsal substitutions are shown in italics. Relative values of instantaneous r should be considered when evaluating them. For simplicity, sum of r values is made equal to 100, The nucleotide frequencies are A = 26.48%, T/U = 20.21%, C = 24.43%, and G = 28.88%. For estimating ML values, a user-specified topology was used. The maximum Log likelihood for this computation was -36926.431. This analysis involved 319 nucleotide sequences. Codon positions included were 1st+2nd+3rd+Noncoding. There were a total of 1902 positions in the final dataset. Evolutionary analyses were conducted in MEGA X [2].
+
+
+1. Nei M. and Kumar S. (2000). Molecular Evolution and Phylogenetics. Oxford University Press, New York.
+2. Kumar S., Stecher G., Li M., Knyaz C., and Tamura K. (2018). MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms. Molecular Biology and Evolution 35:1547-1549.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net). In no event shall the authors and their employers be liable for any damages, including but not limited to special, consequential, or other damages. Authors specifically disclaim all other warranties expressed or implied, including but not limited to the determination of suitability of this caption text for a specific purpose, use, or application.
+```
+
 ## Simple NJ Tree Construction
 
 ```
