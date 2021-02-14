@@ -6,7 +6,7 @@ Data includes an already codon-aware alignment.
 
 Substitution Matrix Estimates (SME) follow a Uniform distribution unless otherwise noted.
 
-Gamma distributed SME use a pre-computed NJ tree in the data.
+Gamma distributed SME use a pre-computed NJ tree available in the data folder
 
 ## Example Analysis Options - Substiution Matrix
 ```
